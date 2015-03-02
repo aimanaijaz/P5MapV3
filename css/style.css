@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html, 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map-canvas {
+  height: 70%;
+  width: 85%;
+  margin-left: 5%;
+}
+ 
+.list {
+  height: 15%;
+  width: 85%;
+  margin-left: 5%;
+}
+
+.formcontainer {
+  height: 15%;
+  width: 85%;
+}
+
+.search {
+  padding: 8px 15px;
+  background: white;
+  min-width: 48px;
+  min-height:48px;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.button {
+  min-width: 48px;
+  min-height: 48px;
+  height: 48px;
+  width: 25.5%;
+  position: relative;
+  padding: 6px 15px;
+  left: -5px;
+  border: 2px solid #207cca;
+  background-color: #207cca;
+  color: #fafafa;
+}
+
+.button:hover {
+  background-color: #1C53a5;
+  color: white;
+}
+ 
+.places {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+.place {
+  font-family: sans-serif;
+  color: #1C53A5;
+  border: 2px solid #1c53a5;
+  background: white;
+}
+
+.name {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.address {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.place:hover {
+  background-color: #1c53a5;
+  color: white;
+}
+
+
+
+
+
+

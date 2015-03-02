@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Mall search</title>
+    <link rel="stylesheet" media="screen and (min-width:600px)" href="css/over600.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)"  href="css/style.css"> 
+  </head>
+  <body>
+    <div id="formcontainer">
+      <form class="form" >
+        <input class="search" id="search" type="text" placeholder="Search..." required data-bind="value: query" >
+        <input class="button" id="button" type="submit" value="Search" data-bind= "click: search"> 
+      </form>
+    </div>
+    <div id="map-canvas"> 
+    </div>
+    <div id="main" class="list">
+      <ul class ="places" data-bind="template: {name:'malls', foreach:mallList}"></ul>
+        <script type="text/html" id="malls">
+          <li class="place" data-bind="click: $root.listClick">
+            <div>
+              <h4 class= "name" data-bind="text: name"></h4>
+              <p class= "address" data-bind="text: address"></p>
+            </div>   
+          </li>
+        </script>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_Mh3QiU9Wew_KqVnPfcCxCO-I7HZPMNE"> </script> 
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/knockout-3.2.0.js"></script>
+    <script src="js/jquery.jsonp-2.4.0.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

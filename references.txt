@@ -1,0 +1,33 @@
+References
+
+- https://developers.google.com/maps/documentation/javascript/tutorial - Google Maps API
+
+- http://www.mediawiki.org/wiki/API%3aMain_page - MediaWiki API for Wikipedia
+
+- http://www.longisland.com/malls/
+
+- http://www.latlong.net/convert-address-to-lat-long.html
+
+- http://learn.knockoutjs.com/ - Knockout JS Tutorials
+
+- https://www.youtube.com/watch?v=JGwRIbWWqjE - Knockout Tutorial
+
+- http://knockoutjs.com/documentation/introduction.html - Knockout Documnetation
+
+- http://knockoutjs.com/documentation/template-binding.html - Knockout Template Binding
+
+- http://www.knockmeout.net/2011/04/utility-functions-in-knockoutjs.html - Utility functions in Knockout
+
+- https://www.udemy.com/blog/search-box-css/
+
+- http://www.w3schools.com/jsref/jsref_indexof.asp
+
+- http://www.w3schools.com/js/js_timing.asp
+
+- https://piazza.com/class/i0sf6tsmg0r7do?cid=1150
+
+- https://www.udacity.com/course/ud893 - Udacity's Responsive Design Web Fundamentals Course
+
+- https://www.udacity.com/course/ud989 - Udacity's Javascript Design Patterns course [ My most helpful resource]
+
+- https://www.udacity.com/course/ud110 - Udacity's Intro to AJAX course [Learnt about MediaWiki and AJAX from here]
