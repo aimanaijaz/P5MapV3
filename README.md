@@ -1,10 +1,10 @@
-Neighborhood Map - Malls in Long Island
+##Neighborhood Map - Malls in Long Island
 
 To run this application you can  
 -Download the zip file from https://github.com/aimanaijaz/neighborhoodmap, extract it and open the index.html file in a web browser.    
 -The site has been hosted on gh-pages. To access it click on the this link http://aimanaijaz.github.io/neighborhoodmap/
 
-Instructions
+##Instructions
 
 This application locates popular malls in Long Island on a google map using google map markers.   
 It uses AJAX to retrieve information about these malls from Wikipedia.   
